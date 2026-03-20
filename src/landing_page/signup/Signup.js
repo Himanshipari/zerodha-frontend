@@ -48,7 +48,8 @@ const Signup = () => {
         toast.success(res.data.message);
 
         setTimeout(() => {
-          navigate("/");
+          // redirect to dashboard app after successful signup
+          window.location.href = "http://localhost:3001";
         }, 1500);
 
       } else {
