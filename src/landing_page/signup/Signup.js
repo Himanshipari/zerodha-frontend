@@ -5,7 +5,7 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Signup = () => {
 
-  const navigate = useNavigate();
+
 
   const [inputValue, setInputValue] = useState({
     email: "",
