@@ -33,11 +33,11 @@ function Team() {
           <p>Playing basketball is his zen.</p>
           <p>
             Connect on{" "}
-            <a href=" " style={{ textDecoration: "none" }}>
+            <a href="/" style={{ textDecoration: "none" }}>
               Homepage
             </a>
             /
-            <a href=" " style={{ textDecoration: "none" }}>
+            <a href="/" style={{ textDecoration: "none" }}>
               TradingQnA
             </a>
             /{" "}

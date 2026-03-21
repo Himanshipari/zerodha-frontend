@@ -14,7 +14,7 @@ function Footer() {
           <div className="col">
             <p className="fs-3">Company</p>
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -22,7 +22,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -30,7 +30,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -38,7 +38,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -46,14 +46,14 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
               Careers
             </a>
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -61,7 +61,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -69,7 +69,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -82,7 +82,7 @@ function Footer() {
           <div className="col">
             <p className="fs-3">Support</p>
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -90,7 +90,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -98,7 +98,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -106,7 +106,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -114,7 +114,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -125,7 +125,7 @@ function Footer() {
           <div className="col">
             <p className="fs-3">Account</p>
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -133,7 +133,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -141,7 +141,7 @@ function Footer() {
             </a>
             <br />
             <a
-              href=""
+              href="/"
               className="fs-5 mb-2 text-muted"
               style={{ textDecoration: "none" }}
             >
@@ -199,7 +199,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               NSE
             </a>
@@ -207,7 +207,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               BSE
             </a>
@@ -215,7 +215,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               MCX
             </a>
@@ -223,7 +223,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               Terms & conditions
             </a>
@@ -231,7 +231,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               Policies & Procedure
             </a>
@@ -239,7 +239,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               Privacy policy
             </a>
@@ -247,7 +247,7 @@ function Footer() {
             <a
               className=" fs-5 active text-muted"
               style={{ textDecoration: "none" }}
-              href="#"
+              href="/"
             >
               Disclosure
             </a>
