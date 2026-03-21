@@ -42,7 +42,7 @@ function Navbar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-5 active" to="/pricing">
+                <Link className="nav-link fs-5 active" to="/pricingPage">
                   Pricing
                 </Link>
               </li>

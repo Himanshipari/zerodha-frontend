@@ -8,7 +8,7 @@ import Signup from './landing_page/signup/Signup';
 import Login from "./landing_page/login/Login";
 import AboutPage from './landing_page/about/AboutPage';
 import ProductPage from './landing_page/products/ProductPage';
-import PricePage from './landing_page/pricing/PricePage';
+import PricePage from './landing_page/pricingPage/PricePage';
 import SupportPage from './landing_page/support/SupportPage';
 
 import NotFound from './landing_page/NotFound';
@@ -27,7 +27,7 @@ root.render(
     <Route path="/login" element={<Login />} />
     <Route path="/about" element={<AboutPage />}/>
     <Route path="/products" element={<ProductPage />}/>
-    <Route path="/pricing" element={<PricePage />}/>
+    <Route path="/pricingPage" element={<PricePage />}/>
     <Route path="/support" element={<SupportPage />}/> 
     <Route path="*" element={<NotFound />}/> 
   </Routes>
