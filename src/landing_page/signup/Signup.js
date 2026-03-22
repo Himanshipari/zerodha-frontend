@@ -33,7 +33,7 @@ const Signup = () => {
     try {
 
       const res = await axios.post(
-        "http://localhost:3002/signup",
+        "https://zerodha-backend-nu2q.onrender.com/signup",//http://localhost:3002/signup
         {
           email,
           username,
