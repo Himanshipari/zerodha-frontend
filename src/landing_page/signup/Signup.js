@@ -49,7 +49,7 @@ const Signup = () => {
 
         setTimeout(() => {
           // redirect to dashboard app after successful signup
-          window.location.href = "http://localhost:3001";
+          window.location.href = "https://zerodha-dashboard-6gww.onrender.com";///http://localhost:3001
         }, 1500);
 
       } else {

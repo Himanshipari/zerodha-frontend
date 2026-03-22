@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 const Login = () => {
 
   const toDashboard = () => {
-    window.location.href = "http://localhost:3001/";
+    window.location.href = "https://zerodha-dashboard-6gww.onrender.com";
   };
 
   const [inputValue, setInputValue] = useState({
