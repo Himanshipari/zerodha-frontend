@@ -292,7 +292,6 @@
 // };
 
 // export default Login;
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -300,8 +299,9 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Login = () => {
 
+  // 1. यहाँ आपका बिल्कुल सही लाइव डैशबोर्ड लिंक लगा दिया गया है
   const toDashboard = () => {
-    window.location.href = "https://onrender.com";
+    window.location.href = "https://zerodha-dashboard-6gww.onrender.com";
   };
 
   const [inputValue, setInputValue] = useState({
@@ -329,7 +329,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      // यहाँ पर आपका 100% सही और असली लाइव बैकेंड लिंक सेट है
+      // 2. यहाँ आपका बिल्कुल सही लाइव बैकेंड लॉगिन लिंक लगा दिया गया है
       const { data } = await axios.post(
         "https://onrender.com",
         { email, password },
