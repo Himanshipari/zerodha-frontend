@@ -301,8 +301,9 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Login = () => {
 
+  // 1. यहाँ आपका बिल्कुल सही लाइव डैशबोर्ड लिंक लगा दिया गया है
   const toDashboard = () => {
-    window.location.href = "https://onrender.com";
+    window.location.href = "https://zerodha-dashboard-6gww.onrender.com";
   };
 
   const [inputValue, setInputValue] = useState({
@@ -335,7 +336,7 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      // यहाँ पर आपका असली और सही लाइव बैकेंड लिंक सेट कर दिया गया है
+      // 2. यहाँ आपका बिल्कुल सही लाइव बैकेंड लॉगिन लिंक लगा दिया गया है
       const { data } = await axios.post(
         "https://onrender.com",
         {
