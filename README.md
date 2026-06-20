@@ -4,7 +4,7 @@ A modern stock trading platform frontend inspired by Zerodha, built using React.
 
 ## 🌐 Live Demo
 
-🔗 (Add Frontend Deployment Link)
+🔗zerodha-frontend-2q4h.onrender.com
 
 ---
 
