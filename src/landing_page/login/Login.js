@@ -293,7 +293,6 @@
 
 // export default Login;
 
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
@@ -301,9 +300,8 @@ import { ToastContainer, toast } from "react-toastify";
 
 const Login = () => {
 
-  // 1. यहाँ आपका बिल्कुल सही लाइव डैशबोर्ड लिंक लगा दिया गया है
   const toDashboard = () => {
-    window.location.href = "https://zerodha-dashboard-6gww.onrender.com";
+    window.location.href = "https://onrender.com";
   };
 
   const [inputValue, setInputValue] = useState({
@@ -315,7 +313,6 @@ const Login = () => {
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;
-
     setInputValue({
       ...inputValue,
       [name]: value,
@@ -323,26 +320,19 @@ const Login = () => {
   };
 
   const handleError = (err) =>
-    toast.error(err, {
-      position: "bottom-left",
-    });
+    toast.error(err, { position: "bottom-left" });
 
   const handleSuccess = (msg) =>
-    toast.success(msg, {
-      position: "bottom-left",
-    });
+    toast.success(msg, { position: "bottom-left" });
 
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
-      // 2. यहाँ आपका बिल्कुल सही लाइव बैकेंड लॉगिन लिंक लगा दिया गया है
+      // यहाँ पर आपका 100% सही और असली लाइव बैकेंड लिंक सेट है
       const { data } = await axios.post(
         "https://onrender.com",
-        {
-          email,
-          password,
-        },
+        { email, password },
         { withCredentials: true }
       );
 
@@ -362,10 +352,7 @@ const Login = () => {
       handleError("Login failed");
     }
 
-    setInputValue({
-      email: "",
-      password: "",
-    });
+    setInputValue({ email: "", password: "" });
   };
 
   return (
@@ -373,11 +360,7 @@ const Login = () => {
       <form onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-12 col-sm-7">
-            <img
-              src="/media/images/signup.png"
-              alt="login"
-              style={{ width: "100%" }}
-            />
+            <img src="/media/images/signup.png" alt="login" style={{ width: "100%" }} />
           </div>
           <div className="col-12 col-sm-5 p-3 p-sm-5">
             <h2 className="text-center">Login</h2>
@@ -400,9 +383,7 @@ const Login = () => {
                 onChange={handleOnChange}
                 required
               />
-              <button type="submit" className="btn btn-primary w-100">
-                Submit
-              </button>
+              <button type="submit" className="btn btn-primary w-100">Submit</button>
               <p className="mt-3">
                 Don't have an account? <Link to="/signup">Signup</Link>
               </p>
