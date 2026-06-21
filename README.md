@@ -2,9 +2,29 @@
 
 A modern stock trading platform frontend inspired by Zerodha, built using React.js. The application provides an intuitive dashboard for managing holdings, positions, and market-related information through a clean and responsive user interface.
 
+## 🔗 Related Repositories
+
+### Frontend Repository
+https://github.com/Himanshipari/zerodha-frontend
+
+### Backend Repository
+https://github.com/Himanshipari/zerodha-backend
+
+### Dashboard Repository
+https://github.com/Himanshipari/zerodha-dashboard
+
+### Live Frontend
+https://zerodha-frontend-2q4h.onrender.com
+
+### Live Dashboard
+https://zerodha-dashboard-6gww.onrender.com
+
+### Live Backend API
+https://zerodha-backend-nu2q.onrender.com
+
 ## 🌐 Live Demo
 
-🔗zerodha-frontend-2q4h.onrender.com
+🔗 zerodha-frontend-2q4h.onrender.com
 
 ---
 
@@ -138,21 +158,28 @@ https://github.com/Himanshipari/zerodha-dashboard
 
 ## 📸 Screenshots
 
+## Signup/Login
+
+<img width="1901" height="944" alt="image" src="https://github.com/user-attachments/assets/c48ebbfb-d669-4a41-a138-78e9e3438941" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a15ff7ab-29c0-4d68-904f-8da355c0f074" />
+
 ### Dashboard
 
-(Add Screenshot Here)
+<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/ac975813-b95a-4afc-91db-32ffa7138c1d" />
+
 
 ### Holdings Page
 
-(Add Screenshot Here)
+<img width="1920" height="956" alt="image" src="https://github.com/user-attachments/assets/711d0e87-f70a-456c-9011-d4dad4e3f627" />
 
 ### Positions Page
 
-(Add Screenshot Here)
+<img width="1916" height="919" alt="image" src="https://github.com/user-attachments/assets/e5a54c03-aaeb-4828-b9a4-b8ea46a4be46" />
 
 ### Orders Section
 
-(Add Screenshot Here)
+<img width="1920" height="989" alt="image" src="https://github.com/user-attachments/assets/998a7014-aad2-4ba5-8c93-a94bcf0e19c3" />
 
 ---
 
