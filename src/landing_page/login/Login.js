@@ -434,9 +434,9 @@ const Login = () => {
     e.preventDefault();
 
     try {
-      // ✅ यहाँ आपका बिल्कुल सही लाइव बैकेंड लॉगिन लिंक लगा दिया गया है
+      // 🛠️ बदलाव यहाँ किया गया है: URL के आखिर में /login जोड़ा गया है और 'nu2g' किया गया है जैसा इमेज में था
       const { data } = await axios.post(
-        "https://zerodha-backend-nu2q.onrender.com",
+        "https://onrender.com",
         { email, password },
         { withCredentials: true }
       );
@@ -502,3 +502,4 @@ const Login = () => {
 };
 
 export default Login;
+
