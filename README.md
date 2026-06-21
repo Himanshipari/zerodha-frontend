@@ -24,7 +24,7 @@ https://zerodha-backend-nu2q.onrender.com
 
 ## 🌐 Live Demo
 
-🔗 https://zerodha-frontend-2q4h.onrender.com
+🔗 **Live Website:** https://zerodha-frontend-2q4h.onrender.com
 
 ---
 
