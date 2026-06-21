@@ -162,7 +162,7 @@ https://github.com/Himanshipari/zerodha-dashboard
 
 <img width="1901" height="944" alt="image" src="https://github.com/user-attachments/assets/c48ebbfb-d669-4a41-a138-78e9e3438941" />
 
-<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/a15ff7ab-29c0-4d68-904f-8da355c0f074" />
+<img width="1882" height="945" alt="image" src="https://github.com/user-attachments/assets/901ae2ad-4771-4584-b353-5dda553bd534" />
 
 ### Dashboard
 
