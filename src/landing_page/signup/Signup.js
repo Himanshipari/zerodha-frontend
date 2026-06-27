@@ -109,6 +109,7 @@ window.location.href = `https://zerodha-dashboard-6gww.onrender.com?token=${toke
               value={username}
               placeholder="Username"
               onChange={handleOnChange}
+              autoComplete="off"
               required
             />
 
@@ -119,6 +120,7 @@ window.location.href = `https://zerodha-dashboard-6gww.onrender.com?token=${toke
               value={password}
               placeholder="Password"
               onChange={handleOnChange}
+              autoComplete="new-password"
               required
             />
 
